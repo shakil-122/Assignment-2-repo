@@ -1,0 +1,110 @@
+.container{
+   display: flex;
+   justify-content: space-between;
+   background-color: aliceblue;
+   align-items:center;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 1em;
+    margin: 10px;
+}
+.logo h2{
+    font-size: 2em;
+    font-weight: 700;
+}
+.logo span{
+    color: rgb(253, 47, 150);
+}
+.logo img{
+    height: 2.5em;
+}
+.nav li{
+        list-style: none;
+        margin-right: 10px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;     
+}
+.nav ul{
+    display: flex;
+}
+.nav li:hover{
+        background-color: aquamarine;
+}
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+}
+.a-icon{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.516);
+    border-radius: 5px;
+    width: 200px;
+    align-items: center;
+}
+.img{
+    height: 1.5em;
+    width: 1.5em;
+    display: flex;
+    gap: 5px;
+    margin-right: 20px;
+
+    
+}
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    gap: 70px;
+    
+}
+.banner-title h3{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.simple-icon img{
+    height: 1rem;
+    width: 1rem;
+}
+.goat{
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.btn-1{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 48px;
+    border-style: none;
+    color: #fff;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn-2{
+    border-radius: 48px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #4EC5F7;
+    border-style: none;
+    margin: 10px;
+}
+
+
