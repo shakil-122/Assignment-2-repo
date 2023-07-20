@@ -468,13 +468,16 @@ footer h2{
         margin: auto;
     }
 
-
+  }
 @media screen and (min-width:477px) and (max-width:778px) {
     
     .container{
+        flex-direction: column;
         text-align: center;
         align-items: center;
         justify-content: center;
+        width: 740px;
+        padding: 20px;
     }
     .nav ul
     {
@@ -485,16 +488,78 @@ footer h2{
     .nav {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        /* justify-content: center;
+        flex-direction: column; */
         flex-direction: column;
        
 
     }
     .banner{
         flex-direction: column;
+        /* max-width: 50%; */
         text-align: center;
         align-items: center;
         margin: auto;
+        width: 740px;
+    }
+    /* .img-1{
+        width: 740px;
+    } */
+    .second-container, .container-description
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 740px;
+    }
+    .card{
+        width: 740px;
+        margin: auto;
+    }
+    .card-section{
+        width: 740px;
+    }
+    .card-img{
+        flex-direction: column;
+        /* 
+         */
+        width: 740px;
+        margin: auto;
+       
+    }
+    .card-img img{
+        margin: auto;
+    }
+    .sponsor-img-section{
+        width: 740px;
+    }
+    .feature-section{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 20px;
         
     }
+    .feature-section-2{
+        width: 740px;
+    }
+    .feature-img{
+        position: relative;
+        /* bottom: 25em; */
+        align-items: center;
+        margin: 20px 20px;
+    }
+   
+    .footer-parent{
+        width: 740px;
+        /* width: 100%; */
+    }
+    .footer-description{
+        flex-wrap: wrap;
+        width: 270px;
+        margin: auto;
+    }
+
+
 }
 
