@@ -14,12 +14,14 @@
 .logo h2{
     font-size: 2em;
     font-weight: 700;
+    margin: 1em;
 }
 .logo span{
     color: rgb(253, 47, 150);
 }
 .logo img{
     height: 2.5em;
+    margin-left: 3.2em;
 }
 .nav li{
         list-style: none;
@@ -77,13 +79,30 @@
 }
 .goat{
     font-family: Work Sans;
-    font-size: 95px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
     
+}
+.game{
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.span{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
 }
 .btn-1{
     display: inline-flex;
@@ -105,6 +124,104 @@
     background: #4EC5F7;
     border-style: none;
     margin: 10px;
+}
+/* second main section */
+.second-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 100%;
+    /* margin: auto; */
+
+}
+.container-description{
+    margin:0px 40px ;
+    padding-right: 20px;
+    text-align: right;
+    
+
+}
+.card-section {
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+}
+.card-section p{
+    font-size: small;
+    
+}
+.card-section h3{
+        margin-bottom: 10px;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+
+   
+}
+.card{
+    width: 100%;
+    margin: 10px;
+    padding: -10px;
+
+
+}  
+.card-title{
+    font-size: 1em;
+    color: #534C64;
+    font-family: Work Sans;
+    font-weight: 500;
+
+}
+/* feature section */
+.feature-section{
+    display: flex;
+    margin-left: 70px;
+    padding-left:3em;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+ .play{
+    background:  #F948B2;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.feature-title{
+    color: #534C64;
+    width: 50%;
+    margin: 30px;
+    text-align: center;
+    
+}
+.feature-title h3{
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.feature-img-1{
+    /* width:50%; */
+    border: 3px solid red;
+    width: 318.5px;
+    height: 365.083px;
+
+   
 }
 
 
