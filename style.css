@@ -205,7 +205,7 @@
 .feature-title{
     color: #534C64;
     width: 50%;
-    margin: 30px;
+    margin-bottom: 30em;
     text-align: center;
     
 }
@@ -216,10 +216,10 @@
     
 }
 .feature-img-1{
-    /* width:50%; */
-    border: 3px solid red;
-    width: 318.5px;
-    height: 365.083px;
+    width:50%;
+    position: relative;
+    bottom: 250px;
+    right: 150px;
 
    
 }
