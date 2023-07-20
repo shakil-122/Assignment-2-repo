@@ -170,6 +170,24 @@
 
    
 }
+.card-btn img{
+    height: 2em;
+    width: 30px; 
+    position: relative;
+    left: 10em;
+    bottom: 16em;
+    background-color: #534c6448;
+    /* border: 2px solid yellow; */
+    cursor: pointer;
+    
+   
+}
+.card-btn p{
+    position: relative;
+    bottom: 16.8em;
+    left: 8.6em;
+    color: #fff;
+}
 .card{
     width: 100%;
     margin: 10px;
@@ -294,7 +312,64 @@
     border: 2px solid hotpink;
     border-radius: 110px;
     color:hotpink;
-    /* padding: 10px; */
+    
+}
+.footer span{
+    color: rgb(236, 57, 146);
+
+}
+footer h2{
+    font-size: 2em;
+}
+.footer-parent{
+    background-color: #0b0223d3;
+    color: #fff;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.footer{
+    display:flex;
+    justify-content:center; 
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.footer-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+
+}
+.footer-img{
+    display: flex;
+    margin: auto;
+    height: 2em;
+    width: 2em;
+    gap: 20px;
+    padding-right: 10em;
+
+    
 }
 
+.footer-security{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: gray;
+}
+.copyright{
+    text-align: center;
+    font-size: .9em;
+    color: gray;
+    
+
+}
 
