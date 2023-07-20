@@ -269,15 +269,32 @@
 }
 /* sponsor-img-section */
 .sponsor-img-section{
-    display: flex;
-    width: 100%;
-    margin: 3em;
-    padding: 3em 3erm ;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    margin-left: 6em;
+    padding: 2em ;
     grid-template-columns: repeat(5,  1fr);
     align-items: center;
     
     
 }
-
+.sponsor-img-title{
+    display: flex;
+    padding: .5em;
+    align-items: center;
+    margin: 1em;
+    gap: .7em;
+    font-size: 1em;
+    font-weight:600;
+    
+    
+}
+.sponsor-img-title:hover{
+    border: 2px solid hotpink;
+    border-radius: 110px;
+    color:hotpink;
+    /* padding: 10px; */
+}
 
 
